@@ -1,0 +1,36 @@
+html{
+	min-width: 400px;
+}
+
+header{
+	height: 150px;
+	margin: 10px;
+	background-color: #CB0DCD;
+	border: 1px solid #000000;
+}
+
+aside{
+	width: 20%;
+	height: 350px;
+	background-color: #FC5808;
+	margin: 0px 10px;
+	border: 1px solid #000000;
+	float: left;
+}
+
+section{
+	border: 1px solid #000000;
+	background-color: #0B677B;
+	margin: 0px 10px 0px 26%;
+}
+footer{
+	height: 100px;
+	margin: 10px;
+	background-color: #CB0DCD;
+	border: 1px solid #000000;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -9,7 +9,7 @@ header{
 	border: 1px solid #000000;
 }
 
-.border{
+aside{
 	width: 20%;
 	height: 350px;
 	background-color: #FC5808;
@@ -17,14 +17,11 @@ header{
 	border: 1px solid #000000;
 	float: left;
 }
-.border:nth-child(2){
-	float: right;
-}
 
 section{
 	border: 1px solid #000000;
 	background-color: #0B677B;
-	margin: 0px 26% 0px 26%;
+	margin: 0px 10px 0px 26%;
 }
 footer{
 	height: 100px;

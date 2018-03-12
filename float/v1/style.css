@@ -1,0 +1,35 @@
+.main{
+	height: 100%;
+}
+
+
+header{
+	height: 150px;
+	border: 1px solid #000;
+	background-color: #ff5a5a;	
+	margin-bottom: 10px;
+	
+}
+
+aside{
+	float: left;
+	border: 1px solid #000;
+	width: 20%;
+	background-color: #338899;
+	height: 400px;
+	margin-bottom: 10px;
+	
+
+}
+section{
+	border: 1px solid #000;
+	background-color:#32ea32;
+	height: 400px;
+	margin: 0 0 0 21%;
+}
+footer{
+	border: 1px solid #a10000;
+	background-color: #ff8ab9;
+	height: 100px;
+	margin:  10px 0;
+	}

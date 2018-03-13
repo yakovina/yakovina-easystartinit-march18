@@ -1,0 +1,36 @@
+body{
+	height: 100%;
+}
+
+.main{
+	position: relative;
+/*	width: 400px;
+	height: 400px;*/
+	width: 200px;
+	height: 300px;
+	left: 50%;
+	background-color: #6BEB65;
+/*	margin: 0 0px -200px -200px;*/
+	margin: 100px 0px -100px -100px;
+}
+.redsqare{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #FF8D3A;
+	margin: 0 -10px;
+}
+.redsqare:nth-child(1){
+	left:-100px;
+}
+.redsqare:nth-child(2){
+	right:-100px;
+}
+.redsqare:nth-child(3){
+	bottom:0px;
+	left:-100px;
+}
+.redsqare:nth-child(4){
+	bottom:0px;
+	right:-100px;
+}
